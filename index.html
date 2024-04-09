@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="contenedor-principal">
+      <nav class="contenedor-principal__hearder">
+        <img src="logoDemian2.png" alt="logo" class="img-logo" />
+        <img
+          src="./burger.svg"
+          alt="logo-2"
+          class="contenedor-principal__img--logo-2"
+        />
+        <ul class="contenedor-principal__hearder-menu-desplegable">
+          <a href="#about" class="menu-desplegable-texto">quien soy</a>
+          <a href="#servicio" class="menu-desplegable-texto">servicios</a>
+          <a href="#contacto" class="menu-desplegable-texto">escribime</a>
+        </ul>
+      </nav>
+      <div class="contenedor-principal__intro">
+        <strong class="contenedor-principal__texto"
+          >Bienvenidos a mi site</strong
+        >
+        <img
+          src="./me.png"
+          alt="me"
+          class="contenedor-principal__img-personal"
+        />
+      </div>
+    </div>
+    <div id="about" class="contenedor-informacion">
+      <nav class="nav-informacion">
+        <h1 class="subtitulo subtitulo--informacion">Soy Damian</h1>
+        <p class="informacion-personal">
+          Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+          vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat
+          arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus.
+          Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et
+          sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies
+          dolor.
+        </p>
+      </nav>
+      <img src="./verificado.png" alt="" class="logo" />
+    </div>
+    <section id="servicio" class="mis-servicios">
+      <h1 class="subtitulo subtitulo--servicios">Mis Servicios</h1>
+      <div class="contenedor-servivios">
+        <div class="servicio">
+          <img src="./monitor.png" alt="" class="servicio-logo" />
+          <h3 class="servicio-titulo">Hago Cosas</h3>
+          <p class="servicio-texto">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+        <div class="servicio">
+          <img src="./monitor.png" alt="" class="servicio-logo" />
+          <h3 class="servicio-titulo">Y mas cosas</h3>
+          <p class="servicio-texto">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+        <div class="servicio">
+          <img src="./monitor.png" alt="" class="servicio-logo" />
+          <h3 class="servicio-titulo">Y tambien otras cosas</h3>
+          <p class="servicio-texto">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div id="contacto" class="form">
+      <h1 class="subtitulo subtitulo--form">Escribime</h1>
+      <div class="contenedor-form__fieldset">
+        <div class="form__fieldset">
+          <label for="name" class="form__fielset-label">NAME</label>
+          <input id="name" type="email" class="form__fieldset-imput" />
+        </div>
+        <div class="form__fieldset">
+          <label for="Email" class="form__fielset-label">EMAIL</label>
+          <input id="Email" type="email" class="form__fieldset-imput" />
+        </div>
+        <div class="form__fieldset">
+          <label for="Mensaje" class="form__fielset-label">MENSAJE</label>
+          <textarea id="Mensaje" class="form__fieldset-textarea"></textarea>
+        </div>
+        <div class="button-secction">
+          <button class="button">Enviar</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-contenedor-logo">
+        <img src="./logoDemian2.png" alt="" class="img-logo img-logo-footer" />
+        <p class="footer-nombre">© 2021 Demian</p>
+      </div>
+      <div class="footer-contenedor-redes">
+        <div class="contenedor-red">
+          <img src="./instagram.svg" alt="instagram" class="footer-logo" />
+          <p class="footer-nombre-redes">Intagram</p>
+        </div>
+        <div class="contenedor-red">
+          <img src="./LinkedinLogo.svg" alt="Linkedin" class="footer-logo" />
+          <p class="footer-nombre-redes">Linkedin</p>
+        </div>
+        <div class="contenedor-red">
+          <img src="./GithubLogo.svg" alt="Github" class="footer-logo" />
+          <p class="footer-nombre-redes">Github</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
